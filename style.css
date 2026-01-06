@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  margin: 0;
+  padding: 10px;
+  bottom: 500px;
+  margin-bottom: 2%;
+  display: flexbox;
+  flex-direction: row;
+
+  align-items: center;
+  text-align: justify;
+
+  background-color: rgb(237, 0, 0);
+}
+
+nav > ul {
+  display: flex;
+  flex-direction: row;
+
+  gap: 10px;
+
+  list-style: none;
+  text-decoration: none;
+}
+
+li > a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  padding: 25px;
+  gap: 20px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.home {
+  padding: 50px;
+  gap: 25px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.home > p {
+  text-align: justify;
+  align-items: center;
+  word-spacing: 5px;
+}
+
+.home > img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.isiForm {
+  padding: 50px;
+  gap: 50px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputArea {
+  display: flex;
+  flex-direction: row;
+
+  gap: 5px;
+}
+
+.buttonArea > button {
+  // kok gabisa sesuai intruksi??
+  align-items: center;
+  margin-left: 505;
+}
+
+.letakList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
